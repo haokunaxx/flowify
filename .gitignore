@@ -3,9 +3,13 @@ node_modules/
 
 # 构建输出
 dist/
+packages/*/dist/
 
 # 测试覆盖率
 coverage/
+
+# TypeScript 构建信息
+*.tsbuildinfo
 
 # 编辑器
 .idea/

@@ -19,7 +19,7 @@ import {
   ProgressPayload,
   StepBarPayload,
   Context,
-} from '../src';
+} from '@flowify/engine';
 
 // ============ 辅助函数 ============
 

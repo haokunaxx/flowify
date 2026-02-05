@@ -18,7 +18,7 @@ import {
   WorkflowEvent,
   ProgressPayload,
   Context,
-} from '../src';
+} from '@flowify/engine';
 
 // ============ 辅助函数 ============
 

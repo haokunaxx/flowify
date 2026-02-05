@@ -1,15 +1,15 @@
 {
-  "name": "workflow-engine",
-  "version": "1.0.0",
-  "description": "通用工作流引擎 - 支持 DAG 工作流执行、异步等待、上下文管理等核心功能",
+  "name": "flowify",
+  "version": "0.1.0",
+  "description": "Flowify - 工作流引擎和可视化编排器",
+  "private": true,
   "type": "module",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "pnpm -r run build",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
+    "dev": "pnpm -r --parallel run dev",
     "demo": "npx tsx examples/demo.ts",
     "demo:ui": "npx tsx examples/demo-ui.ts"
   },
@@ -17,7 +17,8 @@
     "workflow",
     "engine",
     "dag",
-    "typescript"
+    "typescript",
+    "monorepo"
   ],
   "license": "MIT",
   "devDependencies": {
